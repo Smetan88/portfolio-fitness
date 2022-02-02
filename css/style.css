@@ -440,7 +440,7 @@ body {
     background-image: url(../images/slogan-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     text-align: center;
     background-attachment: fixed;
 }
@@ -490,7 +490,7 @@ body {
     background-image: url(../images/single-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     text-align: center;
     background-attachment: fixed;
     height: 50vh;
