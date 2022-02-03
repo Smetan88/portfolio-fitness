@@ -15,13 +15,13 @@ $(function() {
         slidesToScroll: 1,
         arrows: false,
         responsive: [{
-                breakpoint: 1081,
+                breakpoint: 1341,
                 settings: {
                     slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 681,
+                breakpoint: 901,
                 settings: {
                     slidesToShow: 1,
 
