@@ -350,6 +350,10 @@ body {
     padding-bottom: 150px;
 }
 
+.program__slider-item .slick-slide {
+    margin: 0 auto;
+}
+
 .program__slider-info {
     max-width: 423px;
     padding: 27px 30px 30px;
@@ -440,7 +444,7 @@ body {
     background-image: url(../images/slogan-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }
@@ -490,7 +494,7 @@ body {
     background-image: url(../images/single-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     background-attachment: fixed;
     height: 50vh;
@@ -916,9 +920,6 @@ body {
 @media (max-width:1340px) {
     .program__slider-item {
         overflow: hidden;
-    }
-    .program__slider-item+.program__slider-item {
-        margin-left: 20px;
     }
     .program__slider-img {
         object-fit: contain;
