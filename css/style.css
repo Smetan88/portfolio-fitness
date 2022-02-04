@@ -1142,6 +1142,21 @@ body {
     .social__slider-bottom {
         display: none;
     }
+    .single-banner {
+        background-attachment: scroll;
+        height: 30vh;
+    }
+    .slogan {
+        background-attachment: scroll;
+        height: auto;
+    }
+    .slogan__title {
+        padding: 20px;
+        font-size: 50px;
+        line-height: 60px;
+        color: #ffffff;
+        vertical-align: middle;
+    }
 }
 
 @media (max-width:576px) {
